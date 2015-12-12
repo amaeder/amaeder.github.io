@@ -1,0 +1,22 @@
+
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;*/
+
+body { 
+	font-family: 'Roboto Slab', serif;
+    color: #000000; 
+	background: url(images/front.jpg) no-repeat bottom right; 
+	background-size: 1300px;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0; 
+	padding-bottom: 10px;
+}
+
+.header p {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+}
+.header a:hover {
+    color: #2f599b;
+}
