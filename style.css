@@ -59,7 +59,12 @@ body#somethingelse {
     width: 100%;
  }
 
-.footer a:link {
+.footer li{
+    display: inline;
+    list-style-type: none; 
+}
+
+.footer a:link, a:visited {
     color: black;
     text-decoration: none;
 }
@@ -67,8 +72,13 @@ body#somethingelse {
     color: #2f599b;
 }
 
-.front-content {
+.front {
     top: 60%;
+    width: 400px;
+}
+
+.front-content {
+    /*top: 60%;*/
     right: 25%;
     padding: 30px;
     width: 400px;
