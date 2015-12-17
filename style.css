@@ -6,6 +6,8 @@ html, body {
     font-family: 'Roboto Slab', serif;
 }
 
+/*Header/Nav Bar*/
+
 header {
     background-color: white;
     top: 0px;
@@ -46,6 +48,7 @@ nav a:hover {
     
 
 }
+/*Background image info*/
 
 #cover{
     background-image: url(images/front.jpg);
@@ -68,39 +71,28 @@ nav a:hover {
     
 }
 
-#welcome {
-    padding: 20px;
-    position: fixed;
-    bottom: 35%;
-    right: 18%;
-    height: 100px;
-    margin-top:;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 500px;
-    
-}
-.title {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
-    text-transform: uppercase;
-    opacity: 0.8;
-    color: white;
-    position: fixed;
-    bottom: 56.2%;
-    right: 34%;
-    
+#visit{
+    background-image: url(images/tour.jpg);
+    background-size: 75%;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
 }
 
-th {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
 #where{
     background-image: url(images/buffalo1.jpg);
+    background-size: 75%;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+}
+
+#news{
+    background-image: url(images/news.jpg);
     background-size: 75%;
     background-position: center;
     background-attachment:fixed;
@@ -119,6 +111,35 @@ th {
     height: 100%;
 }
 
+/*Main Section*/
+
+#welcome {
+    padding: 20px;
+    position: fixed;
+    bottom: 35%;
+    right: 18%;
+    height: 100px;
+    margin-top:;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    
+}
+/*Main Section Title*/
+
+.title {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    bottom: 56.7%;
+    right: 34%;
+    
+}
+
 .producttitle {
     font-family: 'roboto', sans-serif;
     font-weight: 900;
@@ -127,10 +148,23 @@ th {
     opacity: 0.8;
     color: white;
     position: fixed;
-    bottom: 28.8%;
+    bottom: 29.5%;
     right: 51%;
-    
+  
 }
+
+.visittitle {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    bottom: 29.5%;
+    right: 70%;
+ }
+
 .wheretitle {
     font-family: 'roboto', sans-serif;
     font-weight: 900;
@@ -139,10 +173,30 @@ th {
     opacity: 0.8;
     color: white;
     position: fixed;
-    bottom: 77.3%;
-    right: 51%;
+    bottom: 79.7%;
+    right: 51.5%;
 }
 
+.newstitle {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    bottom: 79.7%;
+    right: 75.2%;
+}
+
+th {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+/*Article Upper Section*/
+/*      Where Upper Section*/
 #stores {
     padding: 20px;
     position: fixed;
@@ -154,6 +208,31 @@ th {
     background-color: rgba(255, 255, 255, 0.8);
     width: 650px;
 }
+/*      News Upper Section*/
+#info {
+    padding: 20px;
+    position: fixed;
+    bottom: 20%;
+    right: 14.8%;
+    height: 600px;
+    margin-top:;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1300px;
+}
+/*      Visit Us Upper Section*/
+#tour {
+    padding: 20px;
+    position: fixed;
+    bottom: 13%;
+    right: 49%;
+    height: 150px;
+    margin-top:;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 650px;
+}
+/*      Product Upper Section*/
 #vodka {
     padding: 20px;
     position: fixed;
@@ -165,7 +244,7 @@ th {
     background-color: rgba(255, 255, 255, 0.8);
     width: 650px;
 }
-
+/*      About Upper Section*/
 #bio {
     padding: 20px;
     position: fixed;
@@ -177,58 +256,27 @@ th {
     background-color: rgba(255, 255, 255, 0.8);
     width: 500px;
 }
+/*Bio Signatures*/
+
 .sig {
     font-family: 'Rock Salt', cursive;
     font-size: 1.2em;
     }
 
+/*Article Lower Section*/
+/*      About Lower Section*/
+
 #history {
     padding: 20px;
     position: fixed;
-    bottom: 12%;
+    bottom: 13%;
     right: 18%;
-    height: 300px;
+    height: 270px;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
     width: 500px;
 }
-
-.action {
-    padding-right: 30px;
-    color: white;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    width: auto;
-    height: auto;
-}
-
-.action a:link, a:visited {
-    font-family: 'Roboto', sans-serif;
-    background-color: #2f599b;
-    text-decoration: none;
-    margin: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-    }
-
-.action a:hover {
-    color: #FFC55E;
-    text-decoration: none;
-}
-
-.menu ul {
-    color: #2f599b;
-    padding: 3px;
-    text-decoration: none;
-    font-weight: 700;
-    float: left;
-    clear: none;
-    vertical-align: middle;
-    bottom: 0px;
-    font-family: 'Roboto', sans-serif;
-    list-style-image: inherit;
-    }
+/*      Home Lower Section*/
 
 #twitter {
     padding: 20px;
@@ -272,22 +320,48 @@ th {
     text-decoration: none;
     
 }
-/*.copy{
-  position:absolute; 
-  top:50%; 
-  height:10em; 
-  margin-top:-5em; 
-  width:100%;*/
+
+/*Call to Action Link*/
+
+.action {
+    padding-right: 30px;
+    color: white;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
 }
 
-/*#main1 {
-    background-image: url(images/front.jpg); 
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-attachment:fixed;
-    }*/
+.action a:link, a:visited {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2f599b;
+    text-decoration: none;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    }
+
+.action a:hover {
+    color: #FFC55E;
+    text-decoration: none;
+}
+/*Product Page Menu*/
+
+.menu ul {
+    color: #2f599b;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 700;
+    float: left;
+    clear: none;
+    vertical-align: middle;
+    bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    list-style-image: inherit;
+    }
+
+/*Footer*/
 
 .footer {
     background-color: white;
@@ -296,6 +370,7 @@ th {
     height: 20px;
     bottom: 0px;
     clear: none;
+    /*margin-left: 20%;*/
 }
 
 .footer ul {
@@ -307,6 +382,7 @@ th {
     letter-spacing: 0.5px;
     font-weight: 700;
     float: left;
+    left: 12.5%;
     clear: none;
     vertical-align: middle;
     display: inline;
@@ -314,6 +390,7 @@ th {
     font-family: 'Roboto', sans-serif;
     list-style-image: none;
     display: inline;
+    position: fixed;
 }
 
 .footer a:link, a:visited {
