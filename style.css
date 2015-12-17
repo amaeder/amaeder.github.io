@@ -113,19 +113,8 @@ nav a:hover {
 
 /*Main Section*/
 
-#welcome {
-    padding: 20px;
-    position: fixed;
-    bottom: 35%;
-    right: 18%;
-    height: 100px;
-    margin-top:;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 500px;
-    
-}
-/*Main Section Title*/
+
+/*Upper Section Title*/
 
 .title {
     font-family: 'roboto', sans-serif;
@@ -189,13 +178,21 @@ nav a:hover {
     right: 75.2%;
 }
 
-th {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
 /*Article Upper Section*/
+
+/*      Homepage Upper Section*/
+#welcome {
+    padding: 20px;
+    position: fixed;
+    bottom: 35%;
+    right: 18%;
+    height: 100px;
+    margin-top:;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 500px;
+}
+
 /*      Where Upper Section*/
 #stores {
     padding: 20px;
@@ -360,6 +357,15 @@ th {
     font-family: 'Roboto', sans-serif;
     list-style-image: inherit;
     }
+
+/*Where Table Headers*/
+
+th {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
 
 /*Footer*/
 
