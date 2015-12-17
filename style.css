@@ -181,16 +181,23 @@ nav a:hover {
 /*Article Upper Section*/
 
 /*      Homepage Upper Section*/
-#welcome {
+.welcome {
     padding: 20px;
-    position: fixed;
-    bottom: 35%;
-    right: 18%;
     height: 100px;
     margin-top:;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
     width: 500px;
+}
+
+.homepagebox {
+    position: fixed;
+    bottom: 25%;
+    right: 20%;
+    height: 300px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    width: 510px;
 }
 
 /*      Where Upper Section*/
@@ -275,44 +282,45 @@ nav a:hover {
 }
 /*      Home Lower Section*/
 
-#twitter {
+.twitter {
+    margin-top: 10px;
+    margin-right: 5px;
     padding: 20px;
-    position: fixed;
-    bottom: 16%;
-    right: 32.7%;
     height: 150px;
+    float: left;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 220px;
+    width: 215px;
 }
 
-#twitter a:link, a:visited {
+.twitter a:link, a:visited {
     color: #2f599b;
     font-family: 'Roboto', sans-serif;
 }
 
-#twitter a:hover {
+.twitter a:hover {
     color: #FFC55E;
     text-decoration: none;
 }
 
-#facebook {
-    padding: 20px;
-    position: fixed;
-    bottom: 16%;
-    right: 18%;
+.facebook {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    float: right;
+    clear: none;
     height: 150px;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 220px;
+    width: 215px;
 }
 
-#facebook a:link, a:visited {
+.facebook a:link, a:visited {
     color: #2f599b;
     font-family: 'Roboto', sans-serif;
 }
 
-#facebook a:hover {
+.facebook a:hover {
     color: #FFC55E;
     text-decoration: none;
     
@@ -387,15 +395,13 @@ th {
     text-decoration: none;
     letter-spacing: 0.5px;
     font-weight: 700;
-    float: left;
+    /*float: left;*/
     left: 12.5%;
     clear: none;
     vertical-align: middle;
     display: inline;
     bottom: 0px;
-    font-family: 'Roboto', sans-serif;
     list-style-image: none;
-    display: inline;
     position: fixed;
 }
 
