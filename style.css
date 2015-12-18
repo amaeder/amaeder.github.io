@@ -1,12 +1,15 @@
 /*font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;*/
-html, body {
-  margin: 0px;
-  padding: 0px;
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto Slab', serif;
 }
 
-/*Header/Nav Bar*/
+
+/*Header & Nav Bar*/
 
 header {
     background-color: white;
@@ -19,6 +22,7 @@ header {
     height: 60px;
     display: inline-block;
 }
+
 nav a {
     position: relative;
     color: black;
@@ -35,69 +39,66 @@ nav a {
     float: right;
     clear: none;
     vertical-align: bottom;
-    
 }
 
 nav a:hover {
     color: #2f599b;
 }
 
-
 .logo {
     float: left;
-    
-
 }
+
+
 /*Background image info*/
 
-#cover{
-    background-image: url(images/front.jpg);
+#home {
+    background-image: url(images/front1.jpg);
     background-size: 75%;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width:100%;
+    width: 100%;
     height: 100%;
-
 }
-#about{
+
+#about {
     background-image: url(images/guys.jpg);
     background-size: 75%;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width:100%;
+    width: 100%;
     height: 100%;
-    
 }
 
-#visit{
+#visit {
     background-image: url(images/tour.jpg);
     background-size: 75%;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
-#where{
-    background-image: url(images/buffalo1.jpg);
+#where {
+    background-image: url(images/buffalo.jpg);
     background-size: 75%;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
-#news{
+#news {
     background-image: url(images/news.jpg);
     background-size: 75%;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -105,307 +106,234 @@ nav a:hover {
     background-image: url(images/vodka.jpg);
     background-size: 75%;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
-/*Main Section*/
 
-
-/*Upper Section Title*/
-
-.title {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
-    text-transform: uppercase;
-    opacity: 0.8;
-    color: white;
-    position: fixed;
-    bottom: 56.7%;
-    right: 34%;
-    
-}
-
-.producttitle {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
-    text-transform: uppercase;
-    opacity: 0.8;
-    color: white;
-    position: fixed;
-    bottom: 29.5%;
-    right: 51%;
-  
-}
-
-.visittitle {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
-    text-transform: uppercase;
-    opacity: 0.8;
-    color: white;
-    position: fixed;
-    bottom: 29.5%;
-    right: 70%;
- }
-
-.wheretitle {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
-    text-transform: uppercase;
-    opacity: 0.8;
-    color: white;
-    position: fixed;
-    bottom: 79.7%;
-    right: 51.5%;
-}
-
-.newstitle {
-    font-family: 'roboto', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
-    text-transform: uppercase;
-    opacity: 0.8;
-    color: white;
-    position: fixed;
-    bottom: 79.7%;
-    right: 75.2%;
-}
-
-/*Article Upper Section*/
-
-/*      Homepage Upper Section*/
-.welcome {
-    padding: 20px;
-    height: 100px;
-    margin-top:;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 500px;
-}
+/* Box that contains textboxes*/
 
 .homepagebox {
     position: fixed;
     bottom: 25%;
     right: 20%;
-    height: 300px;
+    height: 400px;
     color: black;
     background-color: rgba(0, 0, 0, 0);
     width: 510px;
 }
 
-/*      Where Upper Section*/
-#stores {
-    padding: 20px;
+.aboutbox {
     position: fixed;
-    bottom: 20%;
-    right: 49%;
-    height: 600px;
-    margin-top:;
+    bottom: 25%;
+    right: 20%;
+    height: 400px;
     color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 650px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 510px;
 }
-/*      News Upper Section*/
-#info {
-    padding: 20px;
+
+
+/* FYI product box is also visit box*/
+
+.productbox {
     position: fixed;
-    bottom: 20%;
-    right: 14.8%;
-    height: 600px;
-    margin-top:;
+    bottom: 15%;
+    left: 15%;
+    height: 200px;
     color: black;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    width: 700px;
+}
+
+.wherebox {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    height: 800px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    width: 700px;
+}
+
+.newsbox {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    height: 800px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
     width: 1300px;
 }
-/*      Visit Us Upper Section*/
-#tour {
+
+
+/* Page Title*/
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: white;
+    margin-bottom: -18px;
+}
+
+
+/*Upper Text Section*/
+
+
+/*Intro box is also About box*/
+
+.intro {
     padding: 20px;
-    position: fixed;
-    bottom: 13%;
-    right: 49%;
-    height: 150px;
-    margin-top:;
+    height: auto;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 650px;
+    width: 470px;
 }
-/*      Product Upper Section*/
-#vodka {
+
+.productintro {
     padding: 20px;
-    position: fixed;
-    bottom: 13%;
-    right: 49%;
-    height: 150px;
-    margin-top:;
+    height: auto;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 650px;
+    width: 700px;
 }
-/*      About Upper Section*/
-#bio {
+
+.whereintro {
     padding: 20px;
-    position: fixed;
-    bottom: 45%;
-    right: 18%;
-    height: 100px;
-    margin-top:;
+    height: auto;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 500px;
+    width: 700px;
 }
+
+.newsintro {
+    position: relative;
+    padding: 20px;
+    float: left;
+    height: auto;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+
+
 /*Bio Signatures*/
 
 .sig {
     font-family: 'Rock Salt', cursive;
     font-size: 1.2em;
-    }
-
-/*Article Lower Section*/
-/*      About Lower Section*/
-
-#history {
-    padding: 20px;
-    position: fixed;
-    bottom: 13%;
-    right: 18%;
-    height: 270px;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 500px;
 }
-/*      Home Lower Section*/
 
-.twitter {
+
+/*Lower Lower Section*/
+
+.history {
     margin-top: 10px;
-    margin-right: 5px;
+    margin-right: 1px;
     padding: 20px;
-    height: 150px;
+    /*height: 150px;*/
     float: left;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 215px;
+    /*width: 210px;*/
 }
 
-.twitter a:link, a:visited {
-    color: #2f599b;
-    font-family: 'Roboto', sans-serif;
-}
 
-.twitter a:hover {
-    color: #FFC55E;
-    text-decoration: none;
-}
+/*twitter is for homepage*/
 
-.facebook {
+.twitter {
     margin-top: 10px;
-    margin-left: 10px;
-    padding: 10px;
-    float: right;
-    clear: none;
-    height: 150px;
+    margin-right: 1px;
+    height: 390px;
+    float: left;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 215px;
 }
 
-.facebook a:link, a:visited {
-    color: #2f599b;
-    font-family: 'Roboto', sans-serif;
-}
-
-.facebook a:hover {
-    color: #FFC55E;
-    text-decoration: none;
-    
-}
 
 /*Call to Action Link*/
 
 .action {
-    padding-right: 30px;
+    background-color: #2f599b;
     color: white;
     font-size: 1.1em;
     text-transform: uppercase;
-    width: auto;
-    height: auto;
+    width: 200px;
+    text-align: center;
+    /*width: auto;
+    height: auto;*/
 }
 
-.action a:link, a:visited {
+.action a:link {
     font-family: 'Roboto', sans-serif;
-    background-color: #2f599b;
+    color: white;
     text-decoration: none;
     margin: 0px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-    }
+}
 
 .action a:hover {
     color: #FFC55E;
     text-decoration: none;
 }
-/*Product Page Menu*/
 
-.menu ul {
-    color: #2f599b;
-    padding: 3px;
-    text-decoration: none;
-    font-weight: 700;
-    float: left;
-    clear: none;
-    vertical-align: middle;
-    bottom: 0px;
+.action a:visited {
     font-family: 'Roboto', sans-serif;
-    list-style-image: inherit;
-    }
+    color: white;
+}
 
 /*Where Table Headers*/
 
 th {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 1.5em;
     text-transform: uppercase;
 }
 
+
 /*Footer*/
 
-.footer {
+footer {
     background-color: white;
     position: fixed;
     width: 800px;
     height: 20px;
     bottom: 0px;
+    float: left;
     clear: none;
+    padding-top: 50px;
+    padding-right: 1000px;
     /*margin-left: 20%;*/
 }
 
 .footer ul {
     color: black;
+    background-color: white;
     padding: 3px;
-    text-align: left;
+    /*text-align: left;*/
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     letter-spacing: 0.5px;
     font-weight: 700;
-    /*float: left;*/
-    left: 12.5%;
-    clear: none;
+    float: left;
+    left: 30%;
     vertical-align: middle;
     display: inline;
-    bottom: 0px;
+    bottom: 50px;
     list-style-image: none;
-    position: fixed;
+    position: relative;
 }
 
-.footer a:link, a:visited {
+.footer a:link,
+a:visited {
     color: black;
     text-decoration: none;
 }
@@ -413,4 +341,39 @@ th {
 .footer a:hover {
     color: #2f599b;
     text-decoration: none;
+}
+
+
+/*About Section Social Links*/
+
+.social ul {
+    color: black;
+    padding: 3px;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    float: left;
+    display: inline;
+    list-style-image: none;
+}
+
+.social a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #2f599b;
+    text-decoration: none;
+}
+
+
+/*Product Gallery Menu*/
+
+.productmenu {
+    color: #2f599b;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.5px;
 }
