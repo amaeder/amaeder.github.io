@@ -53,7 +53,7 @@ nav a:hover {
 /*Background image info*/
 
 #home {
-    background-image: url(images/front1.jpg);
+    background-image: url(images/front.jpg);
     background-size: 75%;
     background-position: center;
     background-attachment: fixed;
