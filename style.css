@@ -211,6 +211,17 @@ nav a:hover {
     width: 700px;
 }
 
+.whereintro a:link, a:visited {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.whereintro a:hover {
+    color: #2f599b;
+}
+
 .newsintro {
     position: relative;
     padding: 20px;
