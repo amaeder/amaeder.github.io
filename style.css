@@ -289,15 +289,20 @@ nav a:hover {
     color: white;
 }
 
-/*Where Table Headers*/
+/*Where Table*/
 
 th {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
+wheretitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 /*Footer*/
 
